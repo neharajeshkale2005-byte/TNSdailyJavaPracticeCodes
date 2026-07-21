@@ -1,0 +1,2 @@
+# TNSdailyJavaPracticeCodes
+javacode
