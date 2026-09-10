@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Neha Kale | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            Neha<span>.</span>
+        </div>
+
+        <nav>
+            <button onclick="showPage('home')">Home</button>
+            <button onclick="showPage('about')">About</button>
+            <button onclick="showPage('skills')">Skills</button>
+            <button onclick="showPage('projects')">Projects</button>
+            <button onclick="showPage('education')">Education</button>
+            <button onclick="showPage('contact')">Contact</button>
+        </nav>
+
+        <button class="theme-btn" onclick="darkMode()">🌙</button>
+
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+
+    <section id="home" class="page active">
+
+        <div class="home-container">
+
+            <div class="home-text">
+
+                <p class="welcome">WELCOME TO MY PORTFOLIO 👋</p>
+
+                <h1>
+                    Hi, I'm <span>Neha Kale</span>
+                </h1>
+
+                <h2>Engineering Student</h2>
+
+                <p>
+                    Motivated final-year B.E. Electronics and Telecommunication Engineering student 
+                    seeking an entry-level opportunity to apply my technical and problem-solving skills. 
+                    Eager to learn new technologies, gain practical experience, and contribute to the growth
+                    and success of the organization.I am interested in web development, Java programming
+                    and software development.       
+                         
+
+                </p>
+
+                <div class="buttons">
+
+                    <button class="primary" onclick="showPage('projects')">
+                        View My Projects
+                    </button>
+
+                    <button class="secondary" onclick="showPage('contact')">
+                        Contact Me
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="profile-area">
+
+                <div class="profile-circle">
+                    <span>NK</span>
+                </div>
+
+                <div class="small-card">
+                    💻 Java & Web Development
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="page">
+
+        <h2 class="section-title">About Me</h2>
+
+        <p class="section-subtitle">
+            A little more about who I am
+        </p>
+
+        <div class="about-container">
+
+            <div class="about-card">
+
+                <div class="about-icon">👩‍💻</div>
+
+                <h3>Who I Am</h3>
+
+                <p>
+                    I am Neha Kale, a final-year engineering student
+                    passionate about technology and software development.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <div class="about-icon">🎯</div>
+
+                <h3>My Goal</h3>
+
+                <p>
+                    My goal is to start my career in the software industry
+                    and continuously improve my technical and problem-solving skills.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <div class="about-icon">🚀</div>
+
+                <h3>My Interests</h3>
+
+                <p>
+                    I am interested in Java, web development, databases,
+                    IoT and learning practical software development.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <div class="about-icon">✨</div>
+
+                <h3>My Strengths</h3>
+
+                <p>
+                    Quick learner, hardworking, responsible,
+                    team-oriented and interested in learning new technologies.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="page">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <p class="section-subtitle">
+            Technologies and skills I am learning
+        </p>
+
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+
+                <div class="skill-heading">
+                    <span>HTML</span>
+                    <span>90%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="skill html"></div>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-heading">
+                    <span>CSS</span>
+                    <span>80%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="skill css"></div>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-heading">
+                    <span>JavaScript</span>
+                    <span>65%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="skill javascript"></div>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-heading">
+                    <span>Java</span>
+                    <span>70%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="skill java"></div>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-heading">
+                    <span>SQL</span>
+                    <span>65%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="skill sql"></div>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-heading">
+                    <span>Communication</span>
+                    <span>80%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="skill communication"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="page">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <p class="section-subtitle">
+            Some projects I have worked on
+        </p>
+
+
+        <!-- FILTER BUTTONS -->
+
+        <div class="filters">
+
+            <button onclick="filterProjects('All')">
+                All
+            </button>
+
+            <button onclick="filterProjects('Web')">
+                Web
+            </button>
+
+            <button onclick="filterProjects('JavaProject')">
+                Java
+            </button>
+
+            <button onclick="filterProjects('Iot')">
+                IoT
+            </button>
+
+        </div>
+
+
+        <div class="projects-container">
+
+
+            <!-- PROJECT 1 -->
+
+            <div class="project-card web">
+
+                <div class="project-icon">
+                    🎓
+                </div>
+
+                <h3>Admission Information Portal</h3>
+
+                <p>
+                    A web portal that provides students with useful
+                    information about courses, colleges and admission.
+                </p>
+
+                <div class="technology">
+                    HTML • CSS • JavaScript
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+
+            <div class="project-card javaProject">
+
+                <div class="project-icon">
+                    ☕
+                </div>
+
+                <h3>Student Management System</h3>
+
+                <p>
+                    A Java-based application designed to manage
+                    student information in an organized way.
+                </p>
+
+                <div class="technology">
+                    Java
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+
+            <div class="project-card iot">
+
+                <div class="project-icon">
+                    🌱
+                </div>
+
+                <h3>Environment Monitoring System</h3>
+
+                <p>
+                    Project objectives include enhancing worker safety by providing immediate alerts 
+                    for dangerous conditions, optimizing equipment operation by maintaining ideal 
+                    conditions, ensuring regulatory compliance, and improving overall operational 
+                    efficiency through data analytics for preventive maintenance.
+
+                </p>
+
+                <div class="technology">
+                  Arduino IDE, EasyEDA, Circuit Designer
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education" class="page">
+
+        <h2 class="section-title">My Education</h2>
+
+        <p class="section-subtitle">
+            My academic journey
+        </p>
+
+
+        <div class="timeline">
+
+
+            <div class="education-card">
+
+                <div class="education-icon">
+                    📚
+                </div>
+
+                <div>
+                    <span class="year">10th</span>
+
+                    <h3>Secondary Education</h3>
+
+                    <p>
+                    I completed my Secondary Education through C.B.T Sadhana Girls School.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <div class="education-icon">
+                    🎓
+                </div>
+
+                <div>
+                    <span class="year">12th</span>
+
+                    <h3>Higher Secondary Education</h3>
+
+                    <p>
+                        I completed my Higher Secondary Education through R.R.Shinde Juniour College 
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <div class="education-icon">
+                    👩‍💻
+                </div>
+
+                <div>
+                    <span class="year">Engineering</span>
+
+                    <h3>Bachelor's Degree</h3>
+
+                    <p>
+                    Currently I am pursuing a Bachelor`s degree in Electronics and Telecommunication Engineering 
+                    from Jayawatrao Sawant College of Engineering 
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ACHIEVEMENTS ================= -->
+
+    <section id="achievements" class="page">
+
+        <h2 class="section-title">Achievements</h2>
+
+        <p class="section-subtitle">
+            My learning and development
+        </p>
+
+
+        <div class="achievement-container">
+
+            <div class="achievement-card">
+                🏆
+                <h3>Academic Projects</h3>
+                <p>
+                    Worked on practical engineering and software projects.
+                </p>
+            </div>
+
+
+            <div class="achievement-card">
+                📜
+                <h3>Certifications</h3>
+                <p>
+                    Continuously learning through courses and technical training.
+                </p>
+            </div>
+
+
+            <div class="achievement-card">
+                💡
+                <h3>Continuous Learning</h3>
+                <p>
+                    Improving programming and development skills through practice.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= RESUME ================= -->
+
+    <section id="resume" class="page">
+
+        <div class="resume-box">
+
+            <div class="resume-icon">
+                📄
+            </div>
+
+            <h2>My Resume</h2>
+
+            <p>
+                Interested in knowing more about my education,
+                skills and projects?
+            </p>
+
+            <a href="resume.pdf" target="_blank" class="resume-button">
+                View My Resume
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="page">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <p class="section-subtitle">
+            Let's connect and build something together
+        </p>
+
+
+        <div class="contact-container">
+
+
+            <div class="contact-info">
+
+                <h2>Let's Connect 🤝</h2>
+
+                <p>
+                    I am always interested in learning,
+                    connecting with new people and exploring opportunities.
+                </p>
+
+
+                <a href="pneharajeshkale2005@gmail.com">
+                    📧 Email : pneharajeshkale2005@gmail.com
+                </a>
+
+                <a href="https://github.com/neharajeshkale2005-byte/TNSdailyJavaPracticeCodes">
+                    💻 GitHub : https://github.com/neharajeshkale2005-byte/TNSdailyJavaPracticeCodes
+                </a>
+
+                <a href="https://www.linkedin.com/" target="_blank">
+                    🔗 LinkedIn
+                </a>
+
+            </div>
+
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                >
+
+                <textarea
+                    id="message"
+                    placeholder="Write your message..."
+                ></textarea>
+
+                <button type="submit" class="primary">
+                    Send Message
+                </button>
+
+                <p id="messageResult"></p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Neha Kale | Built with HTML, CSS & JavaScript 
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
